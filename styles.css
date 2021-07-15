@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  font-size: 2.5rem;
+  font
+}
+
+h2{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 4rem;
+  color: white;
+  background: black;
+  margin-bottom: 1rem;
+  width:100%;
+  border-radius: 10px;
+}
+
+.flex-container{
+  margin: 5vw 25vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-style: solid;
+  border-radius: 10px;
+  min-width: 50%;
+
+}
+
+.title , .counter{
+  border-bottom-style: solid;
+}
+.buttons{
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1200px){
+
+h1{
+  font-size: 7rem;
+}
+h2{
+  font-size: 10rem;
+}
+button{
+  font-size: 7.5rem;
+}
+  .flex-container{
+    padding: 5rem 2rem;
+    margin: 10rem 2rem 0 2rem;
+  }
+}
